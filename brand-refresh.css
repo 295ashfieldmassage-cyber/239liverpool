@@ -1,0 +1,177 @@
+/* 239 Liverpool — luxury Arabian pink-purple visual system */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root{
+  --ink:#2c1036;--purple:#53135f;--purple-2:#782275;--deep:#21082f;
+  --pink:#f2a9cc;--rose:#ffd3e8;--gold:#e9bd75;--gold-light:#ffe9b7;
+  --cream:#fff7fb;--white:#fff;--muted:#73576f;
+  --line:rgba(143,62,114,.20);--shadow:0 28px 80px rgba(58,10,69,.20)
+}
+*{box-sizing:border-box}html{background:#fff7fb;scroll-behavior:smooth}
+body,body.employment-page{margin:0;font-family:Manrope,sans-serif;color:var(--ink);background:radial-gradient(circle at 18% 8%,rgba(255,187,224,.32),transparent 24%),linear-gradient(180deg,#fff8fc,#fce5f3 48%,#fff8fc);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:30;opacity:.28;background-image:radial-gradient(circle at 10% 20%,#fff 0 1px,transparent 2px),radial-gradient(circle at 82% 15%,#fff 0 1px,transparent 2px),radial-gradient(circle at 55% 75%,#fff 0 1px,transparent 2px);background-size:220px 220px,280px 280px,340px 340px}
+a{color:inherit}h1,h2,h3,h4,.section-heading h2{font-family:Cinzel,serif;color:#401641}p,.section-heading>p{color:#765d72}
+
+/* Header */
+.site-header,.site-header.scrolled,body.employment-page .site-header{position:fixed;top:0;left:0;right:0;width:auto;height:84px;padding:0 5vw;border:0;border-bottom:1px solid rgba(255,255,255,.14)!important;border-radius:0;background:rgba(35,8,48,.90)!important;backdrop-filter:blur(16px);box-shadow:0 12px 36px rgba(31,5,43,.20)!important;color:#fff;z-index:100}
+.brand-number{font-family:Cinzel,serif!important;color:#ffd7ef!important;font-size:31px!important;text-shadow:0 0 18px rgba(238,119,205,.45)}
+.brand-copy,.brand-copy small,.nav a{color:#fff!important}.brand-copy small{color:var(--gold-light)!important;letter-spacing:.28em!important}.nav a{font-size:11px!important;letter-spacing:.11em!important;text-transform:uppercase}.nav a:hover{color:var(--gold-light)!important}
+.nav-cta,body .nav-cta{border:1px solid rgba(255,233,183,.62)!important;border-radius:999px!important;background:rgba(111,31,112,.36)!important;color:#fff!important}
+.language-switcher{background:rgba(73,18,83,.96)!important;border-color:rgba(255,233,183,.28)!important}.language-switcher button{color:#f7e6f2!important}.language-switcher button:hover,.language-switcher button.active{background:linear-gradient(135deg,#ffe9ad,#d99a55)!important;color:#35102d!important}
+
+/* Hero — directly follows the supplied luxury reference */
+.home-page .hero{min-height:100vh;padding:140px 7vw 90px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.55fr);color:#fff;background:linear-gradient(90deg,rgba(23,4,34,.60),rgba(62,8,65,.20) 56%,rgba(25,4,35,.25)),url('images/239-romantic-banner.jpg') center/cover no-repeat!important;isolation:isolate}
+.home-page .hero:before{content:"";display:block;position:absolute;inset:112px 4.5vw 44px;border:1px solid rgba(255,233,183,.52)!important;border-radius:170px 36px 170px 36px;background:none;box-shadow:inset 0 0 40px rgba(255,173,221,.10);z-index:-1}
+.home-page .hero:after{content:"";display:block;position:absolute;inset:0;background:linear-gradient(180deg,rgba(27,4,39,.08),transparent 55%,rgba(28,5,39,.65));z-index:-2}
+.home-page .hero-content{max-width:800px;text-shadow:0 5px 26px rgba(42,5,47,.38)}
+.home-page .hero .eyebrow{color:var(--gold-light)!important;letter-spacing:.28em}.home-page .hero h1{font-family:Cinzel,serif!important;font-size:clamp(62px,9vw,128px)!important;line-height:.78!important;color:#ffe5f3!important;text-transform:uppercase;letter-spacing:.03em;text-shadow:0 7px 24px rgba(41,4,46,.38)!important}.home-page .hero h1 em{font-style:normal;color:var(--gold-light)!important;background:linear-gradient(180deg,#fff5cf,#e3a65b 58%,#fff0bc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.home-page .hero-content p,.home-page .scroll-link{color:rgba(255,255,255,.92)!important}.home-page .hero-card{display:block;background:linear-gradient(160deg,rgba(68,14,79,.85),rgba(122,32,110,.75))!important;color:#fff!important;border:1px solid rgba(255,233,183,.43)!important;border-radius:150px 150px 28px 28px!important;box-shadow:0 28px 70px rgba(25,3,35,.34)!important;backdrop-filter:blur(12px)}.home-page .hero-card h2{color:#fff!important}.home-page .hero-card p{color:#ead9e7!important}
+.button-primary,body .button-primary,.pricing-button,body .pricing-button{border:0!important;border-radius:999px!important;background:linear-gradient(135deg,#ffe9ad,#d9954d)!important;color:#35102d!important;box-shadow:0 13px 32px rgba(213,151,72,.30)!important}.button-primary:hover,.pricing-button:hover{transform:translateY(-3px)}.button-secondary,.button-light{border:1px solid rgba(255,255,255,.55)!important;border-radius:999px!important;background:rgba(72,16,81,.30)!important;color:#fff!important;backdrop-filter:blur(8px)}
+
+/* Light palace sections */
+.section{position:relative}.section:not(.contact):before{display:none}.section-heading{text-align:center}.section-heading h2{font-size:clamp(39px,5vw,70px)!important;line-height:1.08!important}.section-heading h2:after{background:linear-gradient(90deg,transparent,#e7b36b,#b85991,#e7b36b,transparent)!important}.eyebrow,.pricing-label{color:#a45a82!important;letter-spacing:.25em!important}
+.services,.location-showcase,.space-preview-section,.environment-gallery-section,.employment-details,body.employment-page .employment-details{background:linear-gradient(180deg,#fff8fc,#f7dcea)!important}
+.roster,body .roster,.weekly-roster-announcement,body .weekly-roster-announcement{background:linear-gradient(180deg,#2c0c3a,#55145e)!important;color:#fff}.roster h2,.roster h3,.weekly-roster-announcement h2,.weekly-roster-announcement h3{color:#fff!important}.roster p,.weekly-roster-announcement p{color:rgba(255,255,255,.72)!important}
+.contact{background:linear-gradient(180deg,#fff7fb,#f2cade)!important}
+
+/* Palace cards */
+.pricing-card,.rate-panel,.employment-card,body.employment-page .employment-card,.contact-card,.environment-features article{position:relative;border:1px solid rgba(150,83,115,.20)!important;border-radius:44px 44px 120px 44px!important;background:rgba(255,255,255,.78)!important;box-shadow:var(--shadow)!important;color:var(--ink)!important;backdrop-filter:blur(12px);overflow:hidden}
+.pricing-card:before,.rate-panel:before,.employment-card:before,.contact-card:before{content:""!important;display:block!important;position:absolute!important;inset:11px!important;border:1px solid rgba(224,177,111,.34)!important;border-radius:35px 35px 110px 35px!important;pointer-events:none!important;background:none!important}
+.pricing-card:nth-child(even),.rate-panel:nth-child(even),.employment-card:nth-child(even){border-radius:44px 120px 44px 44px!important}.pricing-card h3,.rate-panel h2,.employment-card h3,.pricing-row .price,.rate-list strong{color:#4b184e!important}.pricing-row,.rate-list p{border-color:#ecd8e4!important}.pricing-row strong,.pricing-row span,.rate-list span,.employment-card li{color:#6d5269!important}.pricing-icon{background:linear-gradient(#fff,#ffe4f2)!important;color:#8f3670!important;border:1px solid var(--gold)!important}
+.pricing-row .time-prices>span{background:#f7d9e9!important;color:#4d1c50!important}.pricing-row .time-prices>span:last-child{background:linear-gradient(135deg,#5a1763,#8a2b81)!important;color:#fff!important}.pricing-row .time-prices small,.pricing-row .time-prices strong{color:inherit!important}
+
+/* Roster retains functionality, gains jewel arches */
+.roster-shell{border:1px solid rgba(255,255,255,.14)!important;border-radius:46px!important;background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.055))!important;box-shadow:0 28px 75px rgba(16,2,25,.28)!important}.day-tabs,.weekly-day-tabs{padding:7px!important;border-radius:999px!important;background:rgba(31,6,43,.58)!important;border:1px solid rgba(255,233,183,.20)!important}.day-tab,.weekly-day-tabs button{border-radius:999px!important;background:transparent!important;color:#ead9e7!important}.day-tab.active,.weekly-day-tabs button[aria-selected="true"]{background:linear-gradient(135deg,#ffe9ad,#d9954d)!important;color:#35102d!important;border-color:transparent!important}
+.therapist-card,.gallery-person,.weekly-person-button{border:1px solid rgba(255,233,183,.28)!important;border-radius:120px 120px 26px 26px!important;background:linear-gradient(180deg,rgba(255,207,233,.20),rgba(255,255,255,.07))!important;box-shadow:0 18px 45px rgba(16,2,25,.28)!important}.therapist-image{border-radius:110px 110px 0 0!important}.therapist-info{text-align:center!important}.therapist-info h4,.weekly-person-button strong{font-family:Cinzel,serif!important;color:var(--gold-light)!important}.therapist-info p,.weekly-person-button small,.weekly-note{color:#e8d7e6!important}.weekly-featured-person{border:1px solid rgba(255,233,183,.36)!important;border-radius:150px 150px 30px 30px!important}.weekly-person-button[aria-pressed="true"]{background:linear-gradient(180deg,rgba(241,159,208,.34),rgba(255,255,255,.10))!important}
+
+/* Environment and interior pages */
+.space-preview-grid a,.environment-photo{padding:0;border:1px solid rgba(152,81,116,.22)!important;border-radius:140px 30px 30px 30px!important;background:#fff!important;box-shadow:var(--shadow)}.space-preview-grid img,.environment-photo img{border-radius:138px 28px 28px 28px!important}.space-preview-grid a:nth-child(even),.environment-photo:nth-child(even){border-radius:30px 140px 30px 30px!important}.space-preview-grid a:nth-child(even) img,.environment-photo:nth-child(even) img{border-radius:28px 138px 28px 28px!important}.environment-features article{text-align:center;padding:42px!important}.environment-features article>span{font-family:Cinzel,serif!important;color:#b87643!important}
+.inner-hero,.employment-hero{min-height:65vh;margin:0;border:0;border-bottom:1px solid rgba(255,233,183,.35)!important;border-radius:0;box-shadow:inset 0 -100px 90px rgba(31,5,42,.38)!important}.inner-hero h1,.employment-hero h1{font-family:Cinzel,serif!important;font-size:clamp(52px,8vw,108px)!important;color:#ffe4f2!important;text-transform:uppercase;text-shadow:0 5px 24px rgba(35,4,42,.42)!important}.inner-hero p,.employment-hero p{color:#fff!important}
+body.inner-page .gallery-hero{background:linear-gradient(90deg,rgba(31,6,43,.63),rgba(100,22,93,.15)),url("images/environment239/waiting-area.jpg") center/cover no-repeat!important}body.inner-page .rates-hero{background:linear-gradient(90deg,rgba(31,6,43,.63),rgba(100,22,93,.15)),url("images/environment239/main-hall.jpg") center/cover no-repeat!important}body.space-page .environment-hero{background:linear-gradient(90deg,rgba(31,6,43,.60),rgba(100,22,93,.12)),url("images/environment239/purple-spa-room.jpg") center/cover no-repeat!important}body.employment-page .employment-hero{background:linear-gradient(90deg,rgba(31,6,43,.62),rgba(100,22,93,.12)),url("images/environment239/reception.jpg") center/cover no-repeat!important}
+.feature-photo-card{border-radius:170px 34px 34px 34px!important;background:linear-gradient(145deg,#f5c6de,#fff)!important;box-shadow:var(--shadow)!important}.feature-photo-card img{border-radius:168px 32px 32px 32px!important}
+
+/* Location, contact and recruitment */
+.location-card,.map-card,.location-layout{background:#fff!important;border:1px solid rgba(150,83,115,.20)!important;box-shadow:var(--shadow)!important}.location-info-panel,.contact-details{background:linear-gradient(145deg,#f5c6df,#fff)!important;color:#3e173f!important}.location-info-panel h3,.location-info-panel p{color:#4b2449!important}input,select,textarea{background:#fffafd!important;color:#3c173d!important;border-color:#e9cfdd!important}input::placeholder,textarea::placeholder{color:#a78fa2!important}
+body.employment-page .employment-contact{background:linear-gradient(145deg,#3b1047,#731f70)!important;border:1px solid rgba(255,233,183,.36)!important;border-radius:44px 120px 44px 44px!important}body.employment-page .employment-contact h3,body.employment-page .employment-contact p{color:#fff!important}body.employment-page .employment-contact-links a{background:linear-gradient(135deg,#ffe9ad,#d9954d)!important;color:#35102d!important}
+body.employment-page .employment-qr-section{background:linear-gradient(160deg,#361044,#70206f 65%,#b14c8a)!important;border:1px solid rgba(255,233,183,.38)!important;border-radius:46px!important}.employment-qr-heading h2,.employment-qr-heading p{color:#fff!important}.employment-qr-grid{grid-template-columns:1fr!important}.employment-qr-card{background:#fff!important;border:2px solid #f0c875!important;border-radius:30px!important;box-shadow:0 20px 55px rgba(18,2,27,.32)!important}.employment-qr-card-wide{width:100%!important;max-width:none!important}
+.image-lightbox,.floating-photo-modal{background:rgba(31,7,43,.93)!important}.floating-photo-button{border-color:#e9bd75!important;background:#fff!important}
+footer{margin:0;border:0;border-top:1px solid rgba(255,233,183,.25);border-radius:0;background:#21082f!important;color:#fff!important}.footer-brand{font-family:Cinzel,serif!important}.mobile-actions{background:#2b0b39!important;border-top-color:rgba(255,233,183,.22)!important}.mobile-actions a{color:#fff!important}.mobile-actions a:last-child{background:linear-gradient(135deg,#ffe9ad,#d9954d)!important;color:#35102d!important}
+
+@media(max-width:900px){.home-page .hero{grid-template-columns:1fr;min-height:auto;padding-bottom:105px}.site-header{padding:0 20px}.nav{background:rgba(31,7,43,.98)!important}.pricing-card,.rate-panel,.employment-card,.contact-card{border-radius:38px 38px 90px 38px!important}.therapist-card,.gallery-person{border-radius:90px 90px 24px 24px!important}.therapist-image{border-radius:84px 84px 0 0!important}}
+@media(max-width:700px){.site-header{height:70px}.home-page .hero{min-height:88svh;padding:120px 22px 85px;background-position:60% center!important}.home-page .hero:before{inset:90px 14px 24px;border-radius:90px 24px 90px 24px}.home-page .hero h1{font-size:54px!important}.home-page .hero-card{border-radius:90px 90px 24px 24px!important}.inner-hero,.employment-hero{min-height:70svh}.inner-hero h1,.employment-hero h1{font-size:48px!important}.space-preview-grid a,.environment-photo{border-radius:90px 24px 24px 24px!important}.space-preview-grid img,.environment-photo img{border-radius:88px 22px 22px 22px!important}footer{margin-bottom:62px}}
+
+/* =========================================================
+   FINAL SIMPLE PINK-PURPLE SYSTEM — restrained corner radius
+========================================================= */
+:root{--radius-lg:24px;--radius-md:18px;--radius-sm:12px}
+body,body.employment-page{background:linear-gradient(180deg,#fff5fa 0%,#f9dfed 46%,#fff7fb 100%)!important}
+.services,.location-showcase,.space-preview-section,.environment-gallery-section,.employment-details,body.employment-page .employment-details{background:linear-gradient(180deg,#fff6fa,#f8ddea)!important}
+.contact{background:linear-gradient(180deg,#f9dfec,#fff6fa)!important}
+.roster,body .roster,.weekly-roster-announcement,body .weekly-roster-announcement{background:linear-gradient(145deg,#8f4a83,#633168)!important}
+
+.home-page .hero:before{border-radius:var(--radius-lg)!important}
+.home-page .hero-card,.pricing-card,.rate-panel,.employment-card,body.employment-page .employment-card,.contact-card,.environment-features article,.roster-shell,.weekly-featured-person,.feature-photo-card,.location-card,.map-card,.location-layout,body.employment-page .employment-contact,body.employment-page .employment-qr-section,.employment-qr-card{border-radius:var(--radius-lg)!important}
+.pricing-card:before,.rate-panel:before,.employment-card:before,.contact-card:before{border-radius:16px!important}
+.pricing-card:nth-child(even),.rate-panel:nth-child(even),.employment-card:nth-child(even){border-radius:var(--radius-lg)!important}
+.therapist-card,.gallery-person,.weekly-person-button,.space-preview-grid a,.environment-photo,.space-preview-grid a:nth-child(even),.environment-photo:nth-child(even){border-radius:var(--radius-md)!important}
+.therapist-image,.space-preview-grid img,.environment-photo img,.space-preview-grid a:nth-child(even) img,.environment-photo:nth-child(even) img,.feature-photo-card img{border-radius:16px!important}
+.button,.button-primary,.button-secondary,.button-light,.pricing-button,.nav-cta,.day-tabs,.weekly-day-tabs{border-radius:var(--radius-sm)!important}
+.day-tab,.weekly-day-tabs button{border-radius:9px!important}
+
+.pricing-card,.rate-panel,.employment-card,body.employment-page .employment-card,.contact-card,.environment-features article{background:linear-gradient(145deg,#fffafd,#f7e0ed)!important;border-color:rgba(160,72,129,.20)!important;box-shadow:0 18px 50px rgba(105,41,92,.12)!important}
+.therapist-card,.gallery-person,.weekly-person-button{background:linear-gradient(160deg,rgba(255,238,248,.20),rgba(255,255,255,.08))!important}
+.roster-shell{background:rgba(72,27,78,.24)!important}.weekly-featured-person{background:rgba(255,243,250,.10)!important}
+.space-preview-grid a,.environment-photo{background:#fff3f9!important;border-color:rgba(160,72,129,.24)!important;box-shadow:0 16px 42px rgba(105,41,92,.12)!important}
+.inner-hero,.employment-hero{border-radius:0!important}
+.employment-qr-card img{border-radius:14px!important}
+
+@media(max-width:700px){.home-page .hero:before,.home-page .hero-card,.pricing-card,.rate-panel,.employment-card,.contact-card,.therapist-card,.gallery-person,.space-preview-grid a,.environment-photo{border-radius:18px!important}.therapist-image,.space-preview-grid img,.environment-photo img{border-radius:15px!important}}
+
+/* Deeper purple accents, combined contact QR panel, and parking directions */
+:root{--purple:#42104f;--purple-2:#651865;--deep:#180522}
+.site-header,.site-header.scrolled,body.employment-page .site-header{background:rgba(30,5,42,.95)!important}
+.roster,body .roster,.weekly-roster-announcement,body .weekly-roster-announcement{background:linear-gradient(145deg,#5e1965,#32103f)!important}
+.nav-cta,body .nav-cta,.day-tab.active,.weekly-day-tabs button[aria-selected="true"]{border-color:rgba(255,224,170,.55)!important}
+.location-info-panel,.contact-details{background:linear-gradient(145deg,#471352,#6d236c)!important;color:#fff!important}.location-info-panel h3,.location-info-panel p{color:#fff!important}
+body.employment-page .employment-contact{background:linear-gradient(145deg,#351040,#641e63)!important}
+body.employment-page .employment-qr-section{background:linear-gradient(155deg,#2a0a37,#5b175e 68%,#872c78)!important}
+footer{background:#1b0627!important}.mobile-actions{background:#25092f!important}
+
+.contact-qr-panel{width:min(1040px,94vw)!important;max-width:1040px!important;max-height:90vh!important;padding:22px!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;background:linear-gradient(145deg,#2a0a37,#59165d)!important;border:1px solid rgba(233,189,117,.45)}
+.contact-qr-card{min-width:0;padding:14px;border-radius:18px;background:#fff;color:#48134e;text-decoration:none;box-shadow:0 20px 55px rgba(15,2,22,.30)}
+.contact-qr-card>span{display:block;padding:4px 4px 12px;font-family:Cinzel,serif;font-size:19px;font-weight:700;text-align:center;color:#56175c}
+.contact-qr-card img{display:block;width:100%;height:min(68vh,700px);object-fit:contain;border-radius:12px!important;background:#fff}
+.floating-photo-button span{line-height:1.25;color:#4c1354!important}
+
+.parking-directions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:30px}
+.parking-guide-english,.parking-guide-chinese{padding:clamp(28px,4vw,48px);border:1px solid rgba(116,39,105,.20);border-radius:24px;background:linear-gradient(145deg,#fff7fb,#f3d6e8);box-shadow:0 18px 50px rgba(91,31,86,.12)}
+.parking-guide-chinese{background:linear-gradient(145deg,#5d1a63,#351041);color:#fff}
+.parking-directions h3{margin:14px 0 18px;font-size:clamp(30px,3.4vw,48px)}.parking-guide-chinese h3,.parking-guide-chinese h4{color:#fff}.parking-directions h4{margin:26px 0 12px;font-family:Manrope,sans-serif;font-size:17px}
+.parking-address{padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.62);color:#4b2848!important}.parking-guide-chinese .parking-address{background:rgba(255,255,255,.10);color:#fff!important}
+.parking-directions ol,.parking-directions ul{display:grid;gap:14px;margin:16px 0 0;padding-left:22px}.parking-directions li{padding-left:5px;color:#684f65}.parking-directions li strong,.parking-directions li span{display:block}.parking-directions li span{margin-top:5px;line-height:1.65}.parking-guide-chinese li{color:#f6e8f4;line-height:1.7}
+.back-entrance-note{margin-top:26px;padding:20px;border-left:4px solid #e9bd75;border-radius:12px;background:rgba(91,24,96,.08)}.parking-guide-chinese .back-entrance-note{background:rgba(255,255,255,.09)}.back-entrance-note h4{margin:0 0 8px}.back-entrance-note p{margin:0;line-height:1.75}.parking-guide-chinese .back-entrance-note p{color:#f2e2ef!important}
+.parking-booking{display:inline-flex;margin-top:22px;padding:12px 16px;border-radius:12px;background:#4a1452;color:#fff;font-weight:800;text-decoration:none}.parking-guide-chinese .parking-booking{background:linear-gradient(135deg,#ffe9ad,#d9954d);color:#35102d}
+
+@media(max-width:800px){.parking-directions,.contact-qr-panel{grid-template-columns:1fr}.contact-qr-panel{overflow:auto}.contact-qr-card img{height:auto;max-height:72vh}.parking-guide-english,.parking-guide-chinese{padding:25px 20px;border-radius:18px}}
+
+.route-visual-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:22px;margin-top:30px}
+.route-visual-card{margin:0;display:grid;grid-template-rows:minmax(220px,auto) auto;overflow:hidden;border:1px solid rgba(116,39,105,.20);border-radius:24px;background:#fff5fa;box-shadow:0 18px 50px rgba(91,31,86,.12)}
+.route-visual-card button{display:block;width:100%;height:100%;min-height:260px;padding:0;border:0;background:#e6d6e3;cursor:pointer;overflow:hidden}
+.route-visual-card img{display:block;width:100%;height:100%;min-height:260px;object-fit:cover;transition:transform .45s ease}.route-visual-card button:hover img{transform:scale(1.02)}
+.route-visual-card figcaption{display:grid;gap:7px;padding:22px 24px;background:linear-gradient(145deg,#fff7fb,#efd0e3)}.route-visual-card figcaption strong{font-family:Cinzel,serif;font-size:22px;color:#48144f}.route-visual-card figcaption span{line-height:1.65;color:#664c63}
+.parking-directions{grid-template-columns:1fr}.parking-guide-english{background:linear-gradient(145deg,#fff7fb,#edd0e2)}
+[dir="rtl"] .parking-directions ol{padding-left:0;padding-right:22px}[dir="rtl"] .back-entrance-note{border-left:0;border-right:4px solid #e9bd75}
+@media(max-width:800px){.route-visual-grid{grid-template-columns:1fr}.route-visual-card{border-radius:18px}.route-visual-card button,.route-visual-card img{min-height:210px}.route-visual-card:first-child img{object-fit:contain;background:#fff}}
+
+/* Final banner optimisation: full artwork, smaller type, no decorative lines */
+.home-page .hero{
+  min-height:clamp(560px,47.72vw,866px)!important;
+  padding:118px 7vw 62px!important;
+  background-image:linear-gradient(90deg,rgba(39,7,49,.58),rgba(63,14,67,.18) 58%,rgba(39,7,49,.08)),url('images/239-romantic-banner.jpg')!important;
+  background-size:100% auto!important;
+  background-position:center top!important;
+  background-repeat:no-repeat!important;
+  background-color:#34103e!important;
+}
+.home-page .hero:before,.home-page .hero:after,.home-page .hero-shape,.home-page .love-note{display:none!important}
+.home-page .hero-content{max-width:650px!important}
+.home-page .hero h1{font-size:clamp(38px,5vw,72px)!important;line-height:.96!important;letter-spacing:.015em!important}
+.home-page .hero .eyebrow{font-size:9px!important;letter-spacing:.22em!important}
+.home-page .hero-content p{max-width:520px!important;margin:20px 0 26px!important;font-size:14px!important;line-height:1.7!important}
+.home-page .hero-card{max-width:330px!important;margin-bottom:18px!important;padding:27px!important;border:0!important;background:rgba(60,16,67,.78)!important;box-shadow:0 18px 48px rgba(30,5,38,.25)!important}
+.home-page .hero-card strong{font-size:23px!important}.home-page .hero-card p{font-size:11px!important}.home-page .hero-card a{border-top:0!important;padding-top:8px!important}
+.home-page .hero-actions .button{min-height:44px!important;padding:0 20px!important;font-size:9px!important}
+
+@media(max-width:900px){
+  .home-page .hero{grid-template-columns:1fr minmax(240px,.55fr)!important;padding:108px 5vw 48px!important}
+  .home-page .hero h1{font-size:clamp(36px,5.5vw,54px)!important}
+}
+@media(max-width:700px){
+  .home-page .hero{display:block!important;min-height:720px!important;padding:300px 22px 72px!important;background-image:linear-gradient(180deg,transparent 0 31%,rgba(48,11,57,.90) 43%,#34103e 100%),url('images/239-romantic-banner.jpg')!important;background-size:100% auto!important;background-position:center top!important}
+  .home-page .hero-content{max-width:100%!important}
+  .home-page .hero h1{font-size:38px!important;line-height:1.02!important}
+  .home-page .hero-content p{font-size:13px!important}
+  .home-page .hero-card{display:none!important}
+}
+
+/* New environment photos and featured 2-second hover gallery */
+.environment-photo-new{border:2px solid rgba(226,126,205,.55)!important;box-shadow:0 18px 52px rgba(87,25,91,.20)!important}
+.featured-arrivals-section{padding-top:82px!important;background:linear-gradient(180deg,#f8dfed,#fff6fb)}
+.featured-arrivals-heading,.team-gallery-heading{max-width:820px;margin:0 auto 38px;text-align:center}.featured-arrivals-heading h2,.team-gallery-heading h2{margin:14px 0;font-size:clamp(38px,5vw,68px)}.featured-arrivals-heading p{color:#70566d}
+.featured-gallery-profile{display:grid;grid-template-columns:minmax(320px,.9fr) minmax(300px,.7fr);max-width:1050px;margin:auto;overflow:hidden;border:1px solid rgba(130,48,116,.25);border-radius:24px;background:linear-gradient(145deg,#48144f,#76266f);box-shadow:0 24px 70px rgba(62,13,70,.22)}
+.featured-gallery-photo{position:relative;min-height:680px;overflow:hidden;background:#2c0b34}.featured-gallery-photo>img{width:100%;height:100%;min-height:680px;object-fit:cover;object-position:center top;transition:opacity .2s ease,transform .5s ease}.featured-gallery-photo:hover>img{transform:scale(1.015)}
+.featured-hover-badge{position:absolute;left:18px;bottom:18px;padding:10px 13px;border-radius:10px;background:rgba(35,7,43,.82);color:#fff;font-size:10px;font-weight:800;letter-spacing:.06em}
+.featured-profile-overlay{position:absolute;inset:auto 18px 58px;display:grid;gap:7px;padding:18px;border-radius:14px;background:rgba(39,7,47,.90);color:#fff;opacity:0;transform:translateY(10px);transition:.25s ease;pointer-events:none}.featured-gallery-photo:hover .featured-profile-overlay,.featured-gallery-profile:focus-within .featured-profile-overlay{opacity:1;transform:none}.featured-profile-overlay strong{font-family:Cinzel,serif;font-size:22px;color:#efc86b}.featured-profile-overlay span{font-size:11px}
+.featured-gallery-info{display:flex;flex-direction:column;justify-content:center;padding:clamp(30px,5vw,62px);color:#fff}.featured-gallery-info h3{margin:14px 0;font-size:clamp(34px,4vw,56px);color:#fff}.featured-gallery-info p{color:#ead9e7}.featured-gallery-info dl{display:grid;gap:0;margin:28px 0 0}.featured-gallery-info dl div{display:grid;grid-template-columns:110px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.16)}.featured-gallery-info dt{color:#efc86b;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.featured-gallery-info dd{margin:0;color:#fff}.featured-photo-thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:22px}.featured-photo-thumbs img{width:100%;aspect-ratio:3/4;object-fit:cover;border:1px solid rgba(255,255,255,.22);border-radius:8px}
+.team-gallery-section{padding-top:90px!important}.gallery-profile-overlay>div{display:grid!important;gap:7px!important}.gallery-profile-overlay>div span{display:block!important;width:100%;font-size:10px!important}.gallery-profile-overlay p{font-size:12px!important;line-height:1.45!important}
+@media(max-width:800px){.featured-gallery-profile{grid-template-columns:1fr;border-radius:18px}.featured-gallery-photo,.featured-gallery-photo>img{min-height:560px}.featured-gallery-info{padding:30px 24px}.featured-gallery-info dl div{grid-template-columns:90px 1fr}}
+
+/* Keep every therapist name clearly visible on hover. */
+.gallery-person:hover .gallery-profile-overlay h3,
+.gallery-person:focus-within .gallery-profile-overlay h3,
+.team-profile-card:hover .team-profile-overlay h3,
+.team-profile-card:focus-within .team-profile-overlay h3,
+.weekly-person-button:hover strong,
+.weekly-person-button[aria-pressed="true"] strong{
+  color:#fff!important;
+  text-shadow:0 1px 8px rgba(36,8,45,.55)!important;
+}

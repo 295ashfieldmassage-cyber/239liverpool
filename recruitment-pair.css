@@ -1,0 +1,9 @@
+body.employment-page .employment-qr-grid{grid-template-columns:minmax(0,1.45fr) minmax(300px,.55fr);align-items:start;gap:26px}
+body.employment-page .employment-qr-card-telegram{width:100%;border:2px solid #e3bd69;border-radius:28px;background:#fff;box-shadow:0 18px 44px rgba(76,34,88,.20)}
+body.employment-page .employment-qr-card-telegram>a:first-child{display:block;padding:12px;background:#f9f0fb}
+body.employment-page .employment-qr-card-telegram img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border:0;border-radius:18px;filter:none}
+body.employment-page .employment-qr-card-telegram>div{padding:22px 24px;background:#fff}
+body.employment-page .employment-qr-card-telegram h3{color:#5e2d70}
+body.employment-page .employment-qr-card-telegram p{color:#765f7d}
+body.employment-page .employment-qr-card-telegram>div>a{display:inline-flex;margin-top:8px;padding:10px 16px;border-radius:999px;background:linear-gradient(135deg,#9e31b8,#d458ba);color:#fff;font-size:11px;font-weight:800}
+@media(max-width:900px){body.employment-page .employment-qr-grid{grid-template-columns:1fr}body.employment-page .employment-qr-card-telegram{max-width:620px;justify-self:center}}
