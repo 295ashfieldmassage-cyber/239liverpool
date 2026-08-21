@@ -145,16 +145,6 @@
       image: "images/sasa.jpg",
       hoverImages: ["images/sasa1.jpg", "images/sasa2.jpg"]
     },
-    Aya: {
-      name: "Aya",
-      description: "Fun & Interactive Chinese",
-      nationality: "Chinese",
-      height: "168cm",
-      weight: "52kg",
-      cup: "C",
-      image: "images/Aya.jpg",
-      hoverImages: ["images/Aya1.jpg", "images/Aya2.jpg","images/Aya3.jpg","images/Aya4.jpg","images/Aya5.jpg"]
-    },
       Fiona: {
       name: "Fiona",
       description: "Fun & Playful Chinese",
@@ -198,14 +188,15 @@
 
       lily: {
       name: "lily",
-      description: "Fun & Cute Tall Chinese",
-      nationality: "Chinese",
+      description:"Fun & Cute Tall Chinese",
+      nationality:"Chinese",
       height: "167cm",
       weight: "47Kg",
       cup: "B",
       image: "images/lily.jpg",
-      hoverImages: ["images/lily1.jpg","images/lily2.jpg","images/ily3.jpg"]
+      hoverImages: ["images/lily1.jpg","images/lily2.jpg","images/lily3.jpg"]
     },
+
       kitkat: {
       name: "kitkat",
       description: "Juicy and cute Thai",
@@ -225,16 +216,46 @@
       cup: "B",
       image: "images/helen.jpg",
       hoverImages: ["images/helen1.jpg"]
-    },
+   },
       Natalia: {
-      name: "Natalia",
-      description: "Gorgeous & Stunnig Italy",
-      nationality: "Italy",
-      height: "162cm",
-      weight: "51Kg",
+      name: "natalia",
+      description: "Fun gorgeous Italian",
+      nationality: "Italian",
+      height: "158cm",
+      weight: "50Kg",
       cup: "D",
       image: "images/natalia.jpg",
-      hoverImages: ["images/natalia1.jpg","images/natalia2.jpg","images/natalia3.jpg"]
+      hoverImages: ["images/natalia.jpg"]
+  },
+      Aya: {
+      name: "Aya",
+      description: "Tall pretty Chinese",
+      nationality: "Chinese",
+      height: "168cm",
+      weight: "50Kg",
+      cup: "c",
+      image: "images/Aya.jpg",
+      hoverImages: ["images/Aya1.jpg", "images/Aya2.jpg", "images/Aya3.jpg", "images/Aya4.jpg", "images/Aya5.jpg"]
+ },
+      Nami: {
+      name: "Nami",
+      description: "Tall pretty Busty Indian",
+      nationality: "Indian",
+      height: "168cm",
+      weight: "55Kg",
+      cup: "c",
+      image: "images/nami1.jpg",
+      hoverImages: ["images/nami2.jpg", "images/nami3.jpg", "images/nami4.jpg"]
+    },
+      Rose: {
+      name: "Rose",
+      description: "Tall pretty Vietnamese",
+      nationality: "Vietnamese",
+      height: "165cm",
+      weight: "50Kg",
+      cup: "D",
+      image: "images/Rose.jpg",
+      hoverImages: ["images/Rose1.jpg", "images/Rose2.jpg", "images/Rose3.jpg"]
     },
     Zuri: {
       name: "Zuri",
@@ -249,13 +270,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Amy", "Lucy", "Kitty", "Lola", "Regina", "Una", "Dory", "Anna", "Andie"],
-    tuesday: ["Lulu", "Venessa","Regina", "Una", "Sweet"],
-    wednesday: ["Venessa",,"Regina", "Una", "Andie", "Sweet", "Sasa"],
-    thursday: [ "lily","Lucy","Zuri", "Andie","Venessa","Una", "Regina","Lulu", "Sweet", "Sasa"],
-    friday: ["Aya","Lucy","Regina","Zuri","Amy","Una", "Lulu","Sweet", "Angel","Sasa","Natalia"],
-    saturday: ["Lucy", "Regina", "Aya","Zuri", "Anna", "Andie", "Sweet", "Sasa","Natalia"],
-    sunday: ["Lucy", "Regina", "Anna","Andie", "Zuri","Sweet", "Sasa", "Aya","Natalia"]
+    monday: ["Lucy","Lola", "Regina", "Una","Aya", "Andie"],
+    tuesday: ["Lulu","Aya","Venessa","Regina", "Una", "Sweet"],
+    wednesday: ["Venessa","Lucy","Regina", "Andie","Una","Sweet", "Sasa"],
+    thursday: [ "lily", "Lucy","Andie","Venessa","Fiona", "Regina","Lulu", "Sweet", "Sasa"],
+    friday: ["lily","Lucy","Regina","Amy","Tia", "Venessa","Aya","Lulu","Sweet", "Angel","Natalia"],
+    saturday: ["Lucy","Natalia","Nami","Regina", "Tia","Rose", "Sweet", "Anna", "Aya", "Venessa"],
+    sunday: ["Nami","Tia","Rose","Natalia","Regina", "Anna","Andie","Tia", "Aya", "Sweet","Sasa"]
   };
 
   const days = {};
@@ -280,7 +301,7 @@
     ]
   };
   window.WEEKLY_ROSTER = {
-    dateRange: "17 AUG – 23AUG 2026",
+    dateRange: "",
     address: "239 Northumberland St, Liverpool NSW 2170",
     days
   };
